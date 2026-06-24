@@ -1,4 +1,4 @@
-const GEMINI_API_KEY = 'AQ.Ab8RN6LKtGsGX2_cQ6hxX0f0iSbpVdm_W4Wu5iafJyEC07_22A';
+const GEMINI_API_KEY = process.env.REACT_APP_GEMINI_KEY;
 const GEMINI_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${GEMINI_API_KEY}`;
 
 const SYSTEM_PROMPT = `You are Veronica — a brilliant, warm, and proactive AI productivity companion. You help users plan tasks, prioritize ruthlessly, and complete goals before deadlines slip.
